@@ -1,0 +1,167 @@
+{"BT_appConfig":
+{
+"BT_items":[
+{"itemId":"EABBED33707F6270514C9771E",
+"itemType":"BT_app",
+"buzztouchAppId":"EABBED33707F6270514C9771E",
+"buzztouchAPIKey":"62DF4D9EFB0D7D9FF6187C9",
+"dataURL":"http://buddyappdevelopment.com/apps/api/app/?command=getAppData&appGuid=EABBED33707F6270514C9771E&apiKey=62DF4D9EFB0D7D9FF6187C9&apiSecret=AB54E306EB5F59B1481214E",
+"reportToCloudURL":"http://buddyappdevelopment.com/apps/api/app/?command=reportToCloud&appGuid=EABBED33707F6270514C9771E&apiKey=62DF4D9EFB0D7D9FF6187C9&apiSecret=AB54E306EB5F59B1481214E&deviceId=[deviceId]&deviceLatitude=[deviceLatitude]&deviceLongitude=[deviceLongitude]&deviceModel=[deviceModel]&userId=[userId]",
+"registerForPushURL":"http://buddyappdevelopment.com/apps/api/app/?command=registerForPush&appGuid=EABBED33707F6270514C9771E&apiKey=62DF4D9EFB0D7D9FF6187C9&apiSecret=AB54E306EB5F59B1481214E&deviceId=[deviceId]&deviceLatitude=[deviceLatitude]&deviceLongitude=[deviceLongitude]&deviceModel=[deviceModel]&userId=[userId]",
+"lastModified":"Mon, 30 Jan 2017 20:22:51 -0800",
+"lastPublished":"Mon, 24 Oct 2016 12:34:50 -0700",
+"name":"Robocats",
+"version":"1.0",
+"currentMode":"Design",
+"startLocationUpdates":"0",
+"promptForPushNotifications":"0",
+"allowRotation":"largeDevicesOnly",
+
+"BT_themes":[
+{"itemId":"899BB6202A077F7D7CAF40D", "itemType":"BT_theme", "itemNickname":"Default Theme", "splashScreenItemId":"F145711A2585C84F36D68BD", "navBarStyle":"solid", "statusBarStyle":"default", "backgroundColor":"#FFFFFF"}
+],
+
+"BT_tabs":[
+
+],
+
+"BT_menus":[
+
+
+],
+
+"BT_screens":[
+{"itemId":"034D46E6B4BB5D54640D2DD", "itemType":"CR_animated_circlemenu", "itemNickname":"Robocats", "itemId":"034D46E6B4BB5D54640D2DD", "itemType":"CR_animated_circlemenu", "itemNickname":"Robocats", "smallCenterButtonImage":"logorobo.png", "largeCenterButtonImage":"logorobo.png", "smallCenterButtonBackground":"logorobo.png", "largeCenterButtonBackground":"logorobo.png", "smallButtonSize":"90", "largeButtonSize":"90", "smallMenuSize":"330", "largeMenuSize":"350", "backgroundColor":"#FFFFFF",
+"childItems":[
+{"itemId":"89B5EACD666372F785B01EB", "itemType":"BT_menuItem", "loadScreenWithItemId":"8E6F79F8973B60316EAAF3A", "titleText":"Contact Us", "smallImageName":"contactus.png", "largeImageName":"contactus.png", "transitionType":"flip"},
+{"itemId":"A32B24540A1946A38E11DA7", "itemType":"BT_menuItem", "loadScreenWithItemId":"85580C64E5F6FB9666E9864", "titleText":"Twitter", "smallImageName":"twitter.png", "largeImageName":"twitter.png", "transitionType":"flip"},
+{"itemId":"D1D00A2D72515F6B55A17AC", "itemType":"BT_menuItem", "loadScreenWithItemId":"9C3038150CE9133B7AE8F5F", "titleText":"Sponsors", "smallImageName":"sponsor.png", "largeImageName":"sponsor.png", "transitionType":"flip"},
+{"itemId":"7E92FB171FD4DAEDEAFA777", "itemType":"BT_menuItem", "loadScreenWithItemId":"CE74CA6E6DE5053DE40E1DB", "titleText":"Calendar", "smallImageName":"calendar.png", "largeImageName":"calendar.png", "transitionType":"flip"},
+{"itemId":"2A9FCEC10142DD3FFBFFA6F", "itemType":"BT_menuItem", "loadScreenWithItemId":"ABBB34271D9F0CF7DA35B24", "titleText":"AR Locations", "smallImageName":"ar.png", "largeImageName":"ar.png", "transitionType":"flip"},
+{"itemId":"34EC84E97845F7E0A8F9538", "itemType":"BT_menuItem", "loadScreenWithItemId":"F069BE170184B437990BCEA", "titleText":"Instafeed", "smallImageName":"instagram.png", "largeImageName":"instagram.png", "transitionType":"flip"}
+]},
+{"itemId":"9C3038150CE9133B7AE8F5F", "itemType":"BT_screen_map", "itemNickname":"Sponsors", "navBarTitleText":"Sponsors", "singleLocationDefaultZoom":"15", "defaultMapType":"standard", "allowShareScreenshot":"1",
+"childItems":[
+{"itemId":"D12EB79022F2C85C6F4DA4F", "itemType":"BT_locationItem", "loadScreenWithItemId":"7011D80395DFFD8333462DD", "title":"North Atlantic Industries, Inc", "subTitle":"110 Wilbur Place, Bohemia,NY 11716", "latitude":"40.7770565", "longitude":"-73.1046346", "calloutTapChoice":"loadAnotherScreen", "transitionType":"flip", "loadScreenNickname":"North Atlantic Industries, Inc.", "pinColor":"green"},
+{"itemId":"64DC397D9713A8CD3837674", "itemType":"BT_locationItem", "loadScreenWithItemId":"7011D80395DFFD8333462DD", "title":"North Atlantic Industries, Inc.", "subTitle":"110 Wilbur Place, Bohemia,NY 11716", "latitude":"40.7770565", "longitude":"-73.1046346", "calloutTapChoice":"loadAnotherScreen", "loadScreenNickname":"North Atlantic Industries, Inc."},
+{"itemId":"EE01F0F724D87B964DAD3E7", "itemType":"BT_locationItem", "loadScreenWithItemId":"F73703C17AD91FFA92E23B0", "title":" Empire National Bank ", "subTitle":"1707 Veterans Highway Ste. 8 Islandia, NY 11749", "latitude":"40.8061908", "longitude":"-73.1810416", "calloutTapChoice":"loadAnotherScreen", "loadScreenNickname":"Empire National Bank"},
+{"itemId":"EC8D3287880A09F35A4990A", "itemType":"BT_locationItem", "loadScreenWithItemId":"E349D65CBA1FDAF87DCE0DB", "title":"County Line Hardware ", "subTitle":"173 W Hills Rd Huntington Station NY", "latitude":"40.83254669999999", "longitude":"-73.42117379999999", "calloutTapChoice":"loadAnotherScreen", "loadScreenNickname":"County Line Hardware"},
+{"itemId":"787FD9313DA228AC10AFEE9", "itemType":"BT_locationItem", "loadScreenWithItemId":"0FFAB607BBB38A30D0EC5CA", "title":"Five Guys Burgers and Fries", "subTitle":"350 NY-110, Huntington Station, NY 11746", "latitude":"40.8158247", "longitude":"-73.4096084", "calloutTapChoice":"loadAnotherScreen", "loadScreenNickname":"Five Guys Burgers and Fries"},
+{"itemId":"991137D5A3C514ACB005BF8", "itemType":"BT_locationItem", "loadScreenWithItemId":"6DE0FBA7010006FC674BC06", "title":"​Underwriter Laboratories INC.", "subTitle":"​1285 Walt Whitman Rd, Melville, NY 11747​", "latitude":"40.79025", "longitude":"-73.4165065", "calloutTapChoice":"loadAnotherScreen", "loadScreenNickname":"​Underwriter Laboratories INC."},
+{"itemId":"40425CD231B5F98966EC0BE", "itemType":"BT_locationItem", "loadScreenWithItemId":"B8A5BDA2D02BAA6A1EB94AB", "title":"Camp-Site Sport Shop", "subTitle":"1877 New York Ave.Huntington Station, NY 11746", "latitude":"40.8369417", "longitude":"-73.4121629", "calloutTapChoice":"loadAnotherScreen", "loadScreenNickname":"Camp-Site Sport Shop"},
+{"itemId":"2086CDE8BE916AE83CB95C4", "itemType":"BT_locationItem", "loadScreenWithItemId":"31E69683781E6967251FFA3", "title":"​Sal-D's ", "subTitle":"208 Wall St, Halesite, NY 11743", "latitude":"40.8784029", "longitude":"-73.4249543", "calloutTapChoice":"loadAnotherScreen", "loadScreenNickname":"​Sal-D's"},
+{"itemId":"FF665FC5159AA353433DFFA", "itemType":"BT_locationItem", "loadScreenWithItemId":"C6689FC1D1C4BE7CE7D248B", "title":"​Rose Mason Contractors INC.", "subTitle":"11 Firtree Lane Huntington, Huntington Station, NY 11746", "latitude":"40.82438500000001", "longitude":"-73.4167669", "calloutTapChoice":"loadAnotherScreen", "transitionType":"flip", "loadScreenNickname":"​Rose Mason Contractors,INC."},
+{"itemId":"0F668ACFF9B4A65AA406C6E", "itemType":"BT_locationItem", "loadScreenWithItemId":"2CBF765C960E5A91417ADD2", "title":"​RNA Electrical Contractors INC", "subTitle":"195 Broadway Huntington Station NY", "latitude":"40.8554293", "longitude":"-73.40552699999999", "calloutTapChoice":"loadAnotherScreen", "loadScreenNickname":"​RNA Electrical Contractors INC."}
+]},
+{"itemId":"7011D80395DFFD8333462DD", "itemType":"BT_screen_customURL", "itemNickname":"North Atlantic Industries, Inc.", "itemId":"7011D80395DFFD8333462DD", "itemType":"BT_screen_customURL", "itemNickname":"North Atlantic Industries, Inc.", "navBarTitleText":"North Atlantic Industries, Inc.", "dataURL":"http://www.naii.com/"},
+{"itemId":"F73703C17AD91FFA92E23B0", "itemType":"BT_screen_customURL", "itemNickname":"Empire National Bank", "itemId":"F73703C17AD91FFA92E23B0", "itemType":"BT_screen_customURL", "itemNickname":"Empire National Bank", "navBarTitleText":"Empire National Bank", "dataURL":"https://www.empirenb.com/index.html"},
+{"itemId":"E349D65CBA1FDAF87DCE0DB", "itemType":"BT_screen_customURL", "itemNickname":"County Line Hardware", "itemId":"E349D65CBA1FDAF87DCE0DB", "itemType":"BT_screen_customURL", "itemNickname":"County Line Hardware", "navBarTitleText":"County Line Hardware", "dataURL":"https://countylinehardwarehuntingtonstation.stihldealer.net"},
+{"itemId":"0FFAB607BBB38A30D0EC5CA", "itemType":"BT_screen_customURL", "itemNickname":"Five Guys Burgers and Fries", "itemId":"0FFAB607BBB38A30D0EC5CA", "itemType":"BT_screen_customURL", "itemNickname":"Five Guys Burgers and Fries", "navBarTitleText":"Five Guys Burgers and Fries", "dataURL":"http://www.fiveguys.com/"},
+{"itemId":"6DE0FBA7010006FC674BC06", "itemType":"BT_screen_customURL", "itemNickname":"​Underwriter Laboratories INC.", "itemId":"6DE0FBA7010006FC674BC06", "itemType":"BT_screen_customURL", "itemNickname":"​Underwriter Laboratories INC.", "navBarTitleText":"​Underwriter Laboratories INC.", "dataURL":"http://www.ul.com/"},
+{"itemId":"B8A5BDA2D02BAA6A1EB94AB", "itemType":"BT_screen_customURL", "itemNickname":"Camp-Site Sport Shop", "itemId":"B8A5BDA2D02BAA6A1EB94AB", "itemType":"BT_screen_customURL", "itemNickname":"Camp-Site Sport Shop", "navBarTitleText":"Camp-Site Sport Shop", "dataURL":"http://www.campsitesportshop.com/"},
+{"itemId":"31E69683781E6967251FFA3", "itemType":"BT_screen_customURL", "itemNickname":"​Sal-D's", "itemId":"31E69683781E6967251FFA3", "itemType":"BT_screen_customURL", "itemNickname":"​Sal-D's", "navBarTitleText":"​Sal-D's", "dataURL":"http://www.saldsrestaurant.com/"},
+{"itemId":"C6689FC1D1C4BE7CE7D248B", "itemType":"BT_screen_customURL", "itemNickname":"​Rose Mason Contractors,INC.", "navBarTitleText":"​Rose Mason Contractors,INC.", "dataURL":"http://www.google.com"},
+{"itemId":"2CBF765C960E5A91417ADD2", "itemType":"BT_screen_customURL", "itemNickname":"​RNA Electrical Contractors INC.", "navBarTitleText":"​RNA Electrical Contractors INC.", "dataURL":"http://www.google.com"},
+{"itemId":"CE74CA6E6DE5053DE40E1DB", "itemType":"CR_eventList", "itemNickname":"Calendar", "itemId":"CE74CA6E6DE5053DE40E1DB", "itemType":"CR_eventList", "itemNickname":"Calendar", "calendarId":"wwhsresearch@gmail.com", "dataURL":"http://buddyappdevelopment.com/apps/files/plugins/CR_eventList/files/getEvents.php", "imageFileName":"calendarheader.jpg", "imageURL":"calendarheader.jpg", "headerImageSize":"Large", "navBarTitleText":"Calendar"},
+{"itemId":"596E56B94F5008CEA4F08EB", "itemType":"BT_screen_blank", "itemNickname":"AR Screen", "navBarTitleText":"AR Screen"},
+{
+"itemId": "ABBB34271D9F0CF7DA35B24",
+"itemType": "FF_gpsar",
+"itemNickname": "AR Locations",
+"navBarTitleText": "GPS AR",
+"navBarBackgroundColor": "#d94939",
+"navBarStyle": "solid",
+"minimumShowDistance": "1000000",
+"locationsAR": [
+
+{
+"shortText": "Robotics Room of Walt Whitman High School",
+"longText": "5 facts about the robotics club -self funded club -were a major part of the district -St. Baldricks -as students we build devices -been around for 13 years",
+"image": "gear.png",
+"destinationId": "QGE187QDDTSWTKK",
+
+"latitude": "40.8342153",
+"longitude": "-73.4298976"
+
+}
+
+
+]
+},
+{"itemId":"1A14A697A620ACC23333922", "itemType":"BT_screen_splash", "itemNickname":"splash", "itemId":"1A14A697A620ACC23333922", "itemType":"BT_screen_splash", "itemNickname":"splash", "startTransitionAfterSeconds":"1", "transitionDurationSeconds":"1", "transitionType":"fade", "backgroundColor":"#000000", "backgroundImageNameSmallDevice":"splash.png", "backgroundImageNameLargeDevice":"splash.png", "backgroundImageScale":"center"},
+{"itemId":"F145711A2585C84F36D68BD", "itemType":"RD_simpleFence", "itemNickname":"Robotics Splash", "itemId":"F145711A2585C84F36D68BD", "itemType":"RD_simpleFence", "itemNickname":"Robotics Splash", "navBarTitleText":"GeoFence", "title1":"Robocats", "latitude1":"40.8274139", "longitude1":"-73.4255499", "radius1":"200", "notify1":"Build a Robot! Build a Robot!", "transitionDurationSeconds":"3", "transitionType":"fade", "backgroundImageNameSmallDevice":"splash.png", "backgroundImageNameLargeDevice":"splash.png", "backgroundImageScale":"center"},
+{"itemId":"4CD2A7E72B108C720D36109", "itemType":"CR_ultimatScreenCreator", "itemNickname":"Home Menu", "itemId":"4CD2A7E72B108C720D36109","itemType":"CR_ultimatScreenCreator","itemNickname":"Home Menu","navBarTitleText":"Home Menu","screenLoadDataIpad":"NA","screenLoadData":"NA","elements":"[&&##itemId##:##0nacyhD71Zhq##,##itemType##:##image##,##elementWidth##:##320##,##elementTop##:##3##,##elementLeft##:##-4##,##elementHeight##:##700##,##elementImage##:##http://buddyappdevelopment.com/apps/files/applications/EABBED33707F6270514C9771E/images/home-robo.png##,##elementWebAttemptZoom##:##0##,##elementMapAllowZoom##:##1##,##elementMapAllowScroll##:##1##,##elementSwitchState##:##0##,##elementTextViewEditable##:##1##,##elementTextViewSelectable##:##1##,##elementTextViewDetectLinks##:##1##,##elementTextViewDetectAddresses##:##1##,##elementTextViewDetectPhoneNumbers##:##1##,##elementTextViewDetectEvents##:##1##,##elementSegmentStyle##:##plain##,##elementSegmentNumberSegments##:##1##,##elementTableMultipleSelection##:##0##,##elementTableRowAsButtons##:##0##,##elementTableListStyle##:##square##,##elementTablePreventScrolling##:##0##,##elementTableRowSelectStyle##:##blue##,##elementVideoAutoplay##:##0##%%,&&##itemId##:##ByvRQb1xPP8B##,##itemType##:##button##,##elementWidth##:##250##,##elementTop##:##417##,##elementLeft##:##-54##,##elementHeight##:##100##,##elementText##:##button##,##elementFontColor##:##clear##,##elementButtonScreenNickname##:##About##,##elementButtonScreenId##:##8FC9CFB69BA40A9FC536FCE##,##elementButtonAction##:##loadScreen##,##elementWebAttemptZoom##:##0##,##elementMapAllowZoom##:##1##,##elementMapAllowScroll##:##1##,##elementSwitchState##:##0##,##elementTextViewEditable##:##1##,##elementTextViewSelectable##:##1##,##elementTextViewDetectLinks##:##1##,##elementTextViewDetectAddresses##:##1##,##elementTextViewDetectPhoneNumbers##:##1##,##elementTextViewDetectEvents##:##1##,##elementSegmentStyle##:##plain##,##elementSegmentNumberSegments##:##1##,##elementTableMultipleSelection##:##0##,##elementTableRowAsButtons##:##0##,##elementTableListStyle##:##square##,##elementTablePreventScrolling##:##0##,##elementTableRowSelectStyle##:##blue##,##elementVideoAutoplay##:##0##,##elementButtonTransitionType##:##flip##%%,&&##itemId##:##UFTbQQptOqyM##,##itemType##:##button##,##elementWidth##:##200##,##elementTop##:##506##,##elementLeft##:##87##,##elementHeight##:##50##,##elementText##:##button##,##elementFontColor##:##clear##,##elementButtonScreenNickname##:##Locations##,##elementButtonScreenId##:##4C6CDF0D98C203E7BFEDBDE##,##elementButtonAction##:##loadScreen##,##elementWebAttemptZoom##:##0##,##elementMapAllowZoom##:##1##,##elementMapAllowScroll##:##1##,##elementSwitchState##:##0##,##elementTextViewEditable##:##1##,##elementTextViewSelectable##:##1##,##elementTextViewDetectLinks##:##1##,##elementTextViewDetectAddresses##:##1##,##elementTextViewDetectPhoneNumbers##:##1##,##elementTextViewDetectEvents##:##1##,##elementSegmentStyle##:##plain##,##elementSegmentNumberSegments##:##1##,##elementTableMultipleSelection##:##0##,##elementTableRowAsButtons##:##0##,##elementTableListStyle##:##square##,##elementTablePreventScrolling##:##0##,##elementTableRowSelectStyle##:##blue##,##elementVideoAutoplay##:##0##,##elementButtonTransitionType##:##flip##%%]","backgroundImageURLSmallDevice":"http://buddyappdevelopment.com/apps/files/applications/EABBED33707F6270514C9771E/images/home-robo.png","backgroundImageURLLargeDevice":"http://buddyappdevelopment.com/apps/files/applications/EABBED33707F6270514C9771E/images/home-robo.png","backgroundImageScale":"fullScreen",
+"childItems":[
+
+]},
+{"itemId":"8FC9CFB69BA40A9FC536FCE", "itemType":"BT_screen_customURL", "itemNickname":"About", "navBarTitleText":"About", "dataURL":"http://www.google.com"},
+{"itemId":"2EF4B27DE07F4DED73C4AFD", "itemType":"BT_screen_customURL", "itemNickname":"Locations LINK", "itemId":"2EF4B27DE07F4DED73C4AFD", "itemType":"BT_screen_customURL", "itemNickname":"Locations LINK", "navBarTitleText":"Locations", "dataURL":"http://www.google.com"},
+{
+"itemId": "4C6CDF0D98C203E7BFEDBDE",
+"itemType": "FF_locationAwards",
+"itemNickname": "Locations",
+"navBarTitleText": "Locations",
+"dataURL": "http://www.google.com",
+"locations": [{
+"locations": [{
+"latitude": "40.8834319",
+"longitude": "-72.8701026",
+"title": "Brookhaven National Lab",
+"id": "001",
+"points": "5",
+"text": "Brookhaven National Laboratory is a multipurpose research institution funded primarily by the U.S. Department of Energy’s Office of Science. Located on the center of Long Island, New York, Brookhaven Lab brings world-class facilities and expertise to the most exciting and important questions in basic and applied science—from the birth of our universe to the sustainable energy technology of tomorrow. We operate cutting - edge large - scale facilities for studies in physics, chemistry, biology, medicine, applied science, and a wide range of advanced technologies.The Laboratory 's almost 3,000 scientists, engineers, and support staff are joined each year by more than 4,000 visiting researchers from around the world. Our award-winning history stretches back to 1947, and we continue to unravel mysteries from the nanoscale to the cosmic scale, and everything in between.",
+"image": "https://www.bnl.gov/CoreImages/rotator/site-aerial-north-940px.jpg"
+}, {
+"latitude": "40.934507",
+"longitude": "-73.441695",
+"title": "Edison Research on Long Island Sound",
+"id": "002",
+"points": "5",
+"text": "There is not a specific place on Long Island Sound that Edison researched.Thomas Edison did many experiments that would be helpful to the Navy during World War 1.He did one experiment on Long Island Sound during the summer of 1917.He spent many weeks aboard the USS Sachem on Long Island Sound. USS Sachem was a large navy ship that was funded by the government for military service. It was was used by Thomas Edison for experimenting purposes. Edison researched about variety of strategies about locating submarines. ",
+"image": "http://longislandsoundstudy.net/wp-content/uploads/2014/11/stewardship-atlas.jpg"
+},
+
+{
+"latitude": "40.8270431",
+"longitude": "-73.4259545",
+"title": "Robotics Room of Walt Whitman High School",
+"id": "003",
+"points": "100",
+"text": "5 facts about the robotics club -self funded club -were a major part of the district -St. Baldricks -as students we build devices -been around for 13 years ",
+"image": "https://www.longislandexchange.com/longisland/images/WestHillsWWhitmanHS.jpg"
+},
+
+
+{
+"latitude": "40.947793",
+"longitude": "-72.900909",
+"title": "Tesla Science Center",
+"id": "004",
+"points": "5",
+"text": "Tesla purchased 200 acres of land in 1901 in Shoreham, New York. This is Tesla’s only remaining laboratory building. This lab was financed by J.P. Morgan. A transmitter tower was built but taken down in 1917 with dynamite. Tesla’s laboratory is not open to the public yet.",
+"image": "http://s3.amazonaws.com/theoatmeal-img/blog/tesla_museum/wardenclyffe_tower.jpg"
+},
+
+
+{
+"latitude": "40.7281",
+"longitude": "73.5974",
+"title": "Cradle of Aviation",
+"id": "005",
+"points": "5",
+"text": "If you want to see airplanes from World War II, you best go to the Cradle of Aviation out in Garden City, NY. This amazing location will feature planes like P-47 Shaking Jug, the Skyranger, and many more. During a tour at the Cradle of the Aviation, you will find out that in October 1909, the first aircraft was built on Long Island and that there are approximately 70 different airfields on Long Island. Hopefully you enjoyed your trip to the Cradle of Aviation.",
+"image": "http://www.theinnatfoxhollow.com/resourcefiles/attractionsmallimages/cradle-of-aviation-in-new-york-th.jpg"
+}
+]
+}]
+},
+{"itemId":"8E6F79F8973B60316EAAF3A", "itemType":"BT_sendEmail", "itemNickname":"Contact Us", "emailToAddress":"whitman.robocats.2161@shufsd.org", "emailSubject":"question about your app..."},
+{"itemId":"85580C64E5F6FB9666E9864", "itemType":"BT_screen_customURL", "itemNickname":"Twitter2", "itemId":"85580C64E5F6FB9666E9864", "itemType":"BT_screen_customURL", "itemNickname":"Twitter2", "navBarTitleText":"Twitter", "dataURL":"https://twitter.com/whitmanrobocats"},
+{"itemId":"F069BE170184B437990BCEA", "itemType":"BT_screen_customURL", "itemNickname":"Instafeed2", "itemId":"F069BE170184B437990BCEA", "itemType":"BT_screen_customURL", "itemNickname":"Instafeed2", "navBarTitleText":"Instafeed", "dataURL":"https://www.instagram.com/whitmanrobocats/"}
+
+]
+}
+
+]
+
+}}

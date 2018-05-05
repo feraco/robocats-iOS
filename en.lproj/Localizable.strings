@@ -1,0 +1,162 @@
+
+
+
+//misc.  text
+"back" = "Back";
+"next" = "Next";
+"done" = "Done";
+"ok" = "OK";
+"yes" = "YES";
+"no" = "NO";
+"home" = "Home";
+"continue" = "Continue";
+"quit" = "Quit";
+"cancel" = "Cancel";
+"error" = "Error";
+"errorTitle" = "~ Error ~";
+"loading" = "...loading...";
+"search" = "search...";
+"updatesAvailable" = "This app's content has changed, would you like to refresh?";
+
+
+//alerts for calling prompt
+"callTitle" = "Call";
+"callMessage" = "Do you want to make a phone call?";
+"callCancel" = "Do Not Call";
+"class" = "Class";
+
+//generic postings (twitter, facebook, chats, etc)
+"messagePosted" = "Message Posted";
+"messagePostedMessage" = "Your message was posted successfully";
+"invalidMessage" = "Your message is too short or too long. Please try again";
+"twitterLoginRequired" = "Please log into Twitter before posting messages";
+"facebookLoginRequired" = "Please log into Facebook before posting messages";
+"routeDrivingDirections" = "Do you want to open the native maps application to route directions?";
+
+//misc messages used in web views when tapping links
+"launch_iTunes" = "Would you like to launch iTunes?";
+"launch_maps" = "Would you like to launch Maps?";
+"launch_sms" = "Would you like to send an SMS?";
+"launch_webBrowser" = "Would you like to view this in Safari?";
+"launch_errorTitle" = "Problem Opening this URL?";
+"launch_errorMessage" = "Your device could not determine which app to use to open this URL?";
+"launch_unsupportedUrlMessage" = "This URL cannot be opened in this app, would you like to try Safari?";
+"launch_emailDocument" = "Would you like to email this document?";
+
+//connection error messages
+"connectionError" = "There seems to be a problem with your internet connection?";
+"downloadError" = "There was a problem downloading some data. Check your internet connection then try again.";
+"noLocalDataAvailable" = "Data for this screen has not been downloaded. Please check your internet connection.";
+"errorSavingData" = "There was a problem saving some data to the devices cache?";
+
+//application data parsing errors
+"appInitError" = "There was a problem initializing the app.";
+"appBundleFileMissing" = "The configuration file cannot be found in the Xcode project?";
+"appDownloadError" = "There was a problem downloading some data.";
+"appDownloadErrorTryAgain" = "There was a problem downloading some required data.\nTry again?";
+"appDownloadErrorInvalidJSON" = "There was a problem reading some required data.\nTry again?";
+"appDownloadErrorCouldNotSave" = "There was a problem saving some required data.\nTry again?";
+
+"appParseError" = "There was a problem parsing some JSON data. Please make sure that it is well-formed.";
+"appDataInvalid" = "The JSON data for this app is invalid. Restart the app to try again.";
+"appNoScreensError" = "No screens to display.";
+"appScreenNotFound" = "Screen not found?";
+"appPlugInNotFound" = "Plug-In Not Found?";
+"appCachedDataInvalid" = "JSON data cached on this device is invalid.";
+"appBundleDataInvalid" = "JSON data included in the project bundle is invalid.";
+"noListItems" = "This menu has no list items?";
+"noButtonItems" = "This button screen has no buttons?";
+"noImageItems" = "This image gallery has no images?";
+"noLocationItems" = "This map has no locations to display?";
+"noQuestionItems" = "This quiz has no questions?";
+
+//error determining action for buttons and menu items
+"menuTapError" = "The application doesn't know how to handle action?";
+"attachDocumentError" = "There was a problem attaching the document?";
+
+//features not supported messages
+"callsNotSupportedTitle" = "Calls Not Supported";
+"callsNotSupportedMessage" = "Placing calls is not supported on this device";
+"emailsNotSupportedTitle" = "Email Not Supported";
+"emailsNotSupportedMessage" = "Sending emails is not supported on this device";
+"textMessageNotSupportedTitle" = "SMS Not Supported";
+"textMessageNotSupportedMessage" = "Sending SMS / Text messages not supported on this device";
+"locationNotSupported" = "It appears that device location information is unavailable. This feature will not work without location information.";
+"customURLSchemeNotSupported" = "Can't Open URL";
+"customURLSchemeNotSupportedMessage" = "This device cannot open the application with this URL Scheme";
+
+//misc. buttons
+"submit" = "Submit";
+"loginButton" = "Login";
+"logoutButton" = "Logout";
+
+//device info
+"clearCache" = "Clear Cache";
+"cache" = "Cache:";
+"cacheCleared" = "All cached-data has been removed from this device.";
+"cameraSupportYes" = "Still Camera: YES";
+"cameraSupportNo" = "Still Camera: NO";
+"videoCameraSupportYes" = "Video Camera: YES";
+"videoCameraSupportNo" = "Video Camera: NO";
+"phoneCallSupportNo" = "Can Make Calls: NO";
+"phoneCallSupportYes" = "Can Make Calls: YES";
+"emailSupportNo" = "Can Send Email: NO";
+"emailSupportYes" = "Can Send Email: YES";
+"smsSupportNo" = "Can Send SMS: NO";
+"smsSupportYes" = "Can Send SMS: YES";
+"display" = "Display:";
+
+//login screen
+"labelLogInId" = "Email Address";
+"labelPassword" = "Password";
+"loggedInMessage" = "Logged In";
+"loggedOutMessage" = "Logged Out";
+"loginRequired" = "~ Login Required ~";
+"loginRequiredMessage" = "You are not logged in. A login is required to access this screen.";
+"invalidLogin" = "Invalid Login";
+"invalidLoginMessage" = "Your login credentials could not be validated. Please try again.";
+"loginSubmitError" = "Please enter your Username and Password then try again.";
+"confirmLogout" = "Are you sure you want to logout?";
+
+//image toolbar function
+"emailImage" = "Email Image";
+"saveImage" = "Save Image";
+"chooseImage" = "Choose Image";
+"takeNewImage" = "Take New Image";
+"uploadImage" = "Upload Image";
+"uploadComplete" = "Upload Complete";
+"uploadCompleteInfo" = "Upload Complete. You can upload another image or use Cancel to go back";
+"uploadFailed" = "Upload Failed";
+"uploadFailedInfo" = "You can try again or use Cancel to go back";
+"emailImageDone" = "Re-load this screen to re-start the process or to send another message";
+"addImageCaption" = "Add Image Caption";
+
+//audio player
+"audioLow" = "low";
+"audioHigh" = "high";
+"audioNotLoaded" = "audio not loaded";
+"audioPlaying" = "audio playing";
+"audioStopped" = "audio stopped";
+"audioDownloading" = "downloading audio...";
+"audioLoading" = "loading audio...";
+"audioLoadingError" = "error loading audio?";
+
+//quiz
+"quizStart" = "start quiz";
+"quizGo" = "go!";
+"quizRotateMessage" = "Please rotate your device";
+"quizCorrectAnswers" = "Correct Answers";
+"quizIncorrectAnswers" = "Incorrect Answers";
+"quizElapsedTime" = "Elapsed Time";
+"quizTotalScore" = "Total Score";
+"quizTryAgain" = "Try Again";
+"quizShowScoreboard" = "Show Scoreboard";
+"quizShowReward" = "Show Reward";
+"quizScoreboard" = "Scoreboard";
+"scoreboardScreenName" = "Scoreboard Screen-Name";
+"scoreboardMessage" = "(others will see this)";
+"quizShareText" = "Share Results";
+
+
+
+
